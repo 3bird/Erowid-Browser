@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quicknames">
+    	<item>(Quick Select)</item>
+    	<item>Alcohol</item>
+    	<item>Cannabis</item>
+    	<item>Cocaine</item>
+    	<item>LSD</item>
+    	<item>MDMA</item>
+    	<item>Mushrooms</item>
+    </string-array>
+    <string-array name="quickurls">
+    	<item></item>
+    	<item>https://www.erowid.org/chemicals/alcohol/alcohol.shtml</item>
+    	<item>https://www.erowid.org/plants/cannabis/cannabis.shtml</item>
+    	<item>https://www.erowid.org/chemicals/cocaine/cocaine.shtml</item>
+    	<item>https://www.erowid.org/chemicals/lsd/lsd.shtml</item>
+    	<item>https://www.erowid.org/chemicals/mdma/mdma.shtml</item>
+    	<item>https://www.erowid.org/plants/mushrooms/mushrooms.shtml</item>
+    </string-array>
+</resources>

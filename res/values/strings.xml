@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="erowid">Erowid</string>
+    <string name="app_name">Erowid Browser</string>
+    <string name="vault_select">Select Vault</string>
+    <string name="select_drug">Quick Browser</string>
+    <string name="search">Search</string>
+    <string name="ok">OK</string>
+    <string name="error_no_search_title">Search Required</string>
+    <string name="error_no_search_text">Please enter a search term.</string>
+    
+    <string name="search_url_template">https://www.erowid.org/cgi-bin/search/htsearch.php?words=%s&amp;method=and</string>
+</resources>

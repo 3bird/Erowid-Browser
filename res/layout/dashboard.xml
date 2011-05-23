@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:windowNoTitle="true"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TableLayout android:id="@+id/address_search_form"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:stretchColumns="1" android:shrinkColumns="1"
+		android:layout_marginTop="10dp" android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp" android:visibility="visible">
+		<TableRow>
+			<ImageView android:src="@drawable/logo"
+				android:layout_width="45dp" android:layout_height="45dp" android:id="@+id/logoimage" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="-3dp" android:layout_marginLeft="6dp"
+				android:layout_marginBottom="1dp" android:text="@string/erowid"
+				 android:textSize="40sp"
+				android:singleLine="false" android:textColor="@color/mainTextColor" />
+		</TableRow>
+	</TableLayout>
+
+	<TableLayout android:id="@+id/address_search_form"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+
+		android:stretchColumns="1" android:shrinkColumns="1"
+		android:layout_marginTop="10dp" android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp" android:background="@drawable/rounded_rectangle"
+		android:visibility="visible">
+		<TableRow>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_span="2"
+				android:layout_marginTop="-3dp" android:layout_marginLeft="6dp"
+				android:layout_marginBottom="1dp" android:text="@string/select_drug"
+				android:singleLine="false" android:textColor="@color/mainTextColor" />
+		</TableRow>
+		<TableRow>
+			<Spinner android:gravity="right"
+				android:focusableInTouchMode="true" android:ellipsize="end"
+				android:maxLines="1" android:layout_span="2" android:id="@+id/input_quickpick"
+				android:prompt="@string/select_drug" android:singleLine="true"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		</TableRow>
+	</TableLayout>
+
+	<TableLayout android:id="@+id/address_search_form"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="10dp" android:stretchColumns="1"
+		android:shrinkColumns="1" android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp" android:background="@drawable/rounded_rectangle"
+		android:visibility="visible">
+
+		<TableRow>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_span="2"
+				android:layout_marginTop="-3dp" android:layout_marginLeft="6dp"
+				android:layout_marginBottom="1dp" android:text="@string/search"
+				android:singleLine="false" android:textColor="@color/mainTextColor" />
+		</TableRow>
+
+		<TableRow>
+
+			<EditText android:id="@+id/input_search" android:hint="@string/search"
+				android:imeOptions="actionSearch" android:layout_span="2" />
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/searchbutton" android:layout_width="200dp"
+				android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+				android:layout_marginTop="25dp" android:paddingTop="12dp"
+				android:text="@string/search" android:onClick="searchClick"
+				android:textSize="16dp" android:textStyle="bold"
+
+				android:layout_span="2" />
+		</TableRow>
+	</TableLayout>
+
+</LinearLayout>
