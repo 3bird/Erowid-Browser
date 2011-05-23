@@ -1,0 +1,5 @@
+This project is distributed under the Apache 2.0 license.
+This project was created in response to an unsanctioned app that was found in the android market that pushed advertising by creating a simple browser around the erowid site.
+The codebase here does not include any of the advertising and all of the functionality present in the existing application.
+
+
